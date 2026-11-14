@@ -1,0 +1,17 @@
+{
+  "name": "behavior-tree-runtime",
+  "version": "1.0.0",
+  "description": "Deterministic behavior tree runtime with async actions, cancellation, scoped blackboard and snapshot restore",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
